@@ -17,5 +17,13 @@ namespace Imposto.Core.Domain
         public double ValorIcms { get; set; }
         public string NomeProduto { get; set; }
         public string CodigoProduto { get; set; }
+
+        // 3 – Exercício (Novo recurso)
+        public double BaseIpi { get; set; }
+        public double AliquotaIpi { get; set; }
+        public double ValorIpi { get; set; }
+
+        // 7 – Exercício (Novo recurso)
+        public double Desconto { get; set; }
     }
 }
